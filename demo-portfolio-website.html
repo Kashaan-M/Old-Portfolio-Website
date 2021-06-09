@@ -11,7 +11,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <!------------------------- Nav Bar------------->
+    <!------------------------- Nav Bar Start------------->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">kashaan_pakistan</a>
@@ -53,7 +53,7 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#032506"/></svg>
-              <img src="./chibi drawing by Kashaan Mahmood.jpg" alt="chibi drawing">
+              <img src="./img/chibi drawing by Kashaan Mahmood.jpg" alt="chibi drawing">
 
               <div class="container">
                 <div class="carousel-caption">
@@ -65,7 +65,7 @@
             </div>
             <div class="carousel-item">
               <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#032506"/></svg>
-              <img src="./kk studio logo transparent bg.png" alt="old ">
+              <img src="./img/kk studio logo transparent bg.png" alt="old ">
 
               <div class="container">
                 <div class="carousel-caption">
@@ -76,7 +76,7 @@
             </div>
             <div class="carousel-item">
               <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#032506"/></svg>
-              <img src="./Untitled.png" alt="new-logo">
+              <img src="./img/Untitled.png" alt="new-logo">
               <div class="container">
                 <div class="carousel-caption">
                   <h1>Wear a mask</h1>
@@ -96,17 +96,17 @@
           </button>
         </div>
     </main>
-      <!-------------------------------------------------------------- Paragraph ---------------------->
+    <!------------------------------------------ NavBar End ------------------------------------------------------>
+
+      <!-------------------------------------------------------------- Paragraph Start ---- ---------------------->
       <div class="paragraph">
         <p>
           A Modern Responsive Website built with bootstrap 5, HTML and CSS.
         </p>
       </div>
+      <!----------------------------------------------------- Paragraph End -------------------------------------->
 
-
-      <!-- SVG ANIMATION-->
-      
-      <!---------------------------------------------Services---------------------------------------------------------->
+      <!---------------------------------------------Services Start---------------------------------------------------------->
       <div class="services">
       <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="bootstrap" viewBox="0 0 118 94">
@@ -207,7 +207,34 @@
         </div>
       </div>
     </div>
-
+    <!----------------------------------------- Services End------------------------------------------------>
+    <!-- Contact Us Start-->
+    <div class="container px-4 py-5 contactus">
+      <h1>Contact Us</h1>
+      <p>please feel free to inquire about our services !</p>
+      <form action="POST">
+        <div class="top-row">
+          <div class="first-element">
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname">
+          </div>
+          <div class="second-element">
+            <label for="lastname">Last Name</label>
+            <input type="text" name="firstname" id="lastname">
+          </div>
+          <div class="third-element">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email"><br><br>
+          </div>
+        </div>
+        
+        <div class="messagebox">
+          <label for="message">Message</label><br>
+          <textarea name="message" id="message" cols="70" rows="5"></textarea>
+        </div><br><br>
+        <input id="submit" type="submit" value="Submit">
+      </form>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
