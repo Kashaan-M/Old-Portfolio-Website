@@ -135,3 +135,7 @@ body {
   position:relative;
   bottom:5vw;
 }
+.contactus{background:#5a5a5a34;}
+.top-row{display:flex;justify-content: space-evenly; font-size:20px;}
+.messagebox {display:flex;justify-content: space-around; font-size:20px;}
+#submit {display:flex;font-size:20px;padding:1em;margin:0 50%;}
