@@ -1,6 +1,11 @@
-function saveToFirebase(email) {
+function saveToFirebase(firstname,lastname,email,message) {
     var emailObject = {
-        email: email
+        "firstname":firstname;
+        "lastname":lastname;
+        "email": email;
+        "message":message;
+        
+        
     };
 
     firebase.database().ref('subscription-entries').push().set(emailObject)
@@ -12,4 +17,4 @@ function saveToFirebase(email) {
         });
 }
 
-saveToFirebase(email);
+saveToFirebase(firstname,lastname,email,message);
